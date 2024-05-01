@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  poc_test_ktmm_mayaomariadb:
+    image: ${DOCKER_REGISTRY-}poctestktmmmayaomariadb
+    build:
+      context: .
+      dockerfile: POC_Test_KTMM_MayAoMariaDB/Dockerfile

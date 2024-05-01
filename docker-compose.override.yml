@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  poc_test_ktmm_mayaomariadb:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+    ports:
+      - "8080"

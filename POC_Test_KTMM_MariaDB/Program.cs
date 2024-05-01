@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using POC_Test_KTMM_MariaDB.Models;
 
 var builder = WebApplication.CreateBuilder(args);
